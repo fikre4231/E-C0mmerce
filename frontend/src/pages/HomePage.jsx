@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import CategoryItem from "../components/CategoryItems.jsx";
-import { useProductStore } from "../stores/useProductStore";
+import { useProductStore } from "../stores/useProductStore.js";
 import FeaturedProducts from "../components/FeaturedProducts";
 
 const categories = [
